@@ -1,8 +1,7 @@
 ## Quarto/Impress build output
-_site/
+
 current/
-index_files/
-site_libs/
+
 
 ## Ignore all images folders
 images/
