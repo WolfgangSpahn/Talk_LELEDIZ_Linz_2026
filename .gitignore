@@ -1,0 +1,33 @@
+## Quarto/Impress build output
+_site/
+current/
+index_files/
+site_libs/
+
+## Ignore all images folders
+images/
+
+## Un-ignore this specific one (must come AFTER images/)
+!docs/
+!docs/images/
+!docs/images/**
+## Auxiliary and temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+## Backup and system files
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb
