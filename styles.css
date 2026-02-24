@@ -22,9 +22,7 @@ img.image-border {
     padding-top: 10px;
 }
 
-.small, .text-1xs {
-    font-size: 0.6em;
-}
+
 
 .text-lg {
     font-size: 1.4em;
@@ -36,6 +34,10 @@ img.image-border {
 
 .text-xs {
     font-size: 0.8em;
+}
+
+.small, .text-1xs {
+    font-size: 0.6em;
 }
 
 .text-2xs {

@@ -19,7 +19,7 @@ format:
       buttons: false
     preview-links: auto
     logo: images/logo_phbern.png
-    footer: Dr. Wolfgang Spahn^0.9^
+    footer: Dr. Wolfgang Spahn^1.0^
     css: [styles.css]  # Include your custom CSS file here
     include-in-header: includes.html
 
@@ -60,8 +60,7 @@ AI, with personal uses more common than work or school uses.*"
 
 *Increased use of AI in the classroom is also
 bringing forth emerging questions, some of which
-are at the core of providing quality teaching and
-learning:*
+are at the* <span class="blue">***core of providing quality teaching and learning:***</span>
 
   - *How does the expanded use of AI affect* ***relationships between students and teachers?***
   - *How has AI impacted the* ***job of a teacher?***
@@ -100,9 +99,11 @@ Research on the impact of AI in education is still emerging, with mixed findings
 ::::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Educational AI
+## Educational AI 1/2
 
-Chatbots are designed to reduce effort and provide answers. But we **want to foster learning**. Educational AI shall
+**Specify and realize a specific AI tutor design with <span class="blue">pedagogical principles enforced</span>**
+
+Educational AI shall
 
 ::: {.text-xs}
 - Be **able <span class="blue">to realize and to assure quality</span>** education AI dialogs in real time
@@ -114,14 +115,22 @@ Chatbots are designed to reduce effort and provide answers. But we **want to fos
   - loss of tutor role and learning process control
   - hallucinations and misinformation
 
-- **Know the <span class="blue">target behavior</span>** of the AI tutor 
+- **Know and implement a <span class="blue">target behavior</span>** of the AI tutor 
   - feedback and scaffolding aligned with learning goals
   - embedding in authentic learning contexts
 
 
 :::
 
-**Specify and realize a specific AI tutor design with <span class="blue">pedagogical principles enforced</span>**
+## Educational AI 2/2
+
+AIDu a prototype for Educational AI tutoring research.
+
+![](images/AIdu.png){width="80%"}
+![](images/AIDu Welcome.png){width="30%" .absolute top=150 left=600 style="border: 1px solid gray;"}
+![](images/AIDu_Emilie_informatic.png){width="30%" .absolute top=400 left=500 style="border: 1px solid gray;"}
+
+Allows to explore different AI tutor pedagogical concepts in real classroom experiments.
 
 
 
@@ -158,22 +167,24 @@ With **AI**, we can pursue **very different learning approaches**.
 | **Assessing**    | ![](images/pr%C3%BCfend_icon.png){height="30px"}   |  Checks knowledge step by step, gives hints, responds evaluatively |
 | **Solving**      | ![](images/l%C3%B6send_icon.png){height="30px"}    |  Provides the complete solution and solution path in a single answer |
 | **Explaining**   | ![](images/erkl%C3%A4rend_icon.png){height="30px"} |  Delivers a structured solution in steps, checks understanding |
-| **Socratic**     | ![](images/sokratisch_icon.png){height="30px"}     |  Guides the learning path through leading questions toward a predefined sequence |
+| **Socratic**     | ![](images/sokratisch_icon.png){height="30px"}     |  Guides the learning path through leading questions (suggestive) toward a predefined sequence |
 | **<span class="blue">Epistemic</span>** | ![](images/epistemisch_icon.png){height="30px"} |  Gives feedback, hints, and structural support while leaving the solution path open |
 
 </div>
 
 AI should be able to support all of these teaching behaviors, but above all should pave the way toward **epistemic tutoring**, in order to sustainably develop real-world, higher-order thinking competencies.
 
+
+
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## AIDu AI Tutoring 1/5
+## AIDu - Epistemic Concept
 
 ::::{.columns}
 
 ::: {.column width="50%" .small}
-To concretize **our AI tutoring concept**, the learning approach is based on “Common Standards for Rigor and Relevance in Teaching Academic Subjects” by Fred M. Newmann, M. Bruce King, and Dana L. Carmichael, and by John Bransford’s work on learning for understanding and transfer.
+**Our AI tutoring concept** is based on the work of **Fred M. Newmann**, and by **John Bransford** and collaborators.
 
-Together, they argue that<span class="blue">**“authentic intellectual work”**</span> needs tasks that:
+They argue that<span class="blue">**“authentic intellectual work”**</span> needs tasks that:
 
 - require the **construction of knowledge** (not merely recall),
 - require investigation, analysis, synthesis, and/or evaluation — **higher-order thinking**, and
@@ -197,31 +208,23 @@ which can only be assessed and realized through tasks that <span class="blue">**
 :::
 ::::
 
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Real-World Learning
-
-Only via "authentic" open ended learning situations, can learners develop and practice competencies.
-
-![AFS Flugagentur - Leipzig - Markranstädt - Flugsimulator - Airbus A320 - Professional](images/Flightdeck-1-Flugstunde-Airbus-A320.jpg)
-
-Technology can help here.
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## AIDu AI Tutoring 2/5
+## AIDu - Microworlds
 
 **Combine AI Dialog with Authentic Learning Contexts (Microworlds)**
 
 ::::{.columns}
 :::{.column width="35%" .small}
-- Student can freely explore the learning environment and receive feedback from the AI tutor on demand
-- AI tutor provides feedback and scaffolding aligned with learning goals, but does not prescribe a specific solution path
+- **Student can freely explore the learning environment** and receive feedback from the AI tutor on demand
+- **AI tutor provides feedback and scaffolding** aligned with learning goals, but does not prescribe a specific solution path
 - Embedding the AI dialogue in an interactive learning environment reduces the risk of hallucinations and role
 
 ### Microworlds 
 
-- are carefully designed, self-contained learning environments 
-- where students explore, experiment, and construct knowledge 
+- are carefully designed, **self-contained learning environments**
+- where students **explore, experiment, and construct knowledge**
 - by interacting with a simplified version of a real or abstract system.
 
 :::
@@ -232,8 +235,12 @@ Technology can help here.
 ::::
 
 :::{.small}
-*Seymour Papert (theory of constructionism)* — learners understand best when they actively build and manipulate meaningful artifacts.
+*Seymour Papert (theory of constructivism)* — learners understand best when they actively build and manipulate meaningful artifacts.
 ::::
+
+<!-- :::{.note}
+- Piaget: Learning is an active process of constructing knowledge, not just passively receiving information.
+::: -->
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
 ## Microworlds
@@ -245,7 +252,7 @@ Virtual learning environment allowing students to explore and experiment
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
-## AIDu AI Tutoring 3/5
+## AIDu - Quality Control
 
 
 
@@ -273,80 +280,6 @@ be **able to quality control and monitor AI dialogs**
 </div>
 :::
 ::::
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-
-## AIDu AI Tutoring 4/5
-
-be **flexible to implement** different AI behaviors and monitoring approaches
-
-::::{.columns}
-:::{.column width="50%"}
-- The system architecture is designed to allow for different teaching behaviors (assessing, solving, explaining, Socratic, epistemic) to be implemented and switched between.
-- Real-time monitoring of dialogue quality allows for detection (and correction) of issues such as role drift, misinformation, or misalignment with learning goals.
-:::
-
-:::{.column width="50%"}
-![](images/AIDu_sys_architecture.png){width="70%"}
-:::
-::::
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## AIDu AI Tutoring 5/5
-
-comply to EU AI Act - High-Risk AI:
-
-:::: {.columns}
-::: {.column width="60%" .text-sm}
-
-recital (56) -- ***AI systems used in education*** *or vocational training, in particular*
-
-  - *for determining access or admission, *
-  - *for assigning persons to educational and vocational training institutions or programmes at all levels,* 
-  - *for evaluating learning outcomes of persons,* 
-  - *for assessing the appropriate level of education* 
-  - *for an individual and materially influencing the level of education and training that individuals will receive or will be able to access or* 
-  - *for monitoring and detecting prohibited behaviour of students during tests*
-
-*should be classified as* **high-risk AI systems**.
-
-:::
-::: {.column width="40%"}
-![](images/understanding-the-eu-ai-act-6.png){width="100%" }
-:::
-::::
-
-:::{.text-2xs}
-- https://eur-lex.europa.eu/eli/reg/2024/1689/oj
-- https://www.isaca.org/-/media/files/isacadp/project/isaca/resources/white-papers/understanding-the-eu-ai-act_1024.pdf
-:::
-
-
-<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
-## Scaffolding Requirements
-
-The different teaching behaviors place very different scaffolding requirements on AI.
-<br/>
-
-<div class="compact-table">
-
-|                  |         |                                                  |
-| ---------------- | :-----: | ------------------------------------------------ |
-| **Assessing**    | ![](images/pr%C3%BCfend_icon.png){height="30px"}   | No scaffolding                                 |
-| **Solving**      | ![](images/l%C3%B6send_icon.png){height="30px"}    | No scaffolding                                 |
-| **Explaining**   | ![](images/erkl%C3%A4rend_icon.png){height="30px"} | Scaffolding for understanding                  |
-| **Socratic**     | ![](images/sokratisch_icon.png){height="30px"}     | Scaffolding for problem solving                |
-| **Epistemic**    | ![](images/epistemisch_icon.png){height="30px"}    | Scaffolding for finding one’s way              |
-
-</div>
-
-This is associated with very different requirements for AI in terms of **role definition, monitoring, and quality assurance**.
-
-<br/>
-
-:::{.small}
-Jin Wang & Wenxiang Fan — *The effect of ChatGPT on students’ learning performance, learning perception, and higher-order thinking: insights from a meta-analysis*
-:::
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
 
@@ -383,6 +316,109 @@ By the end of the didactic dialogue, the chatbot's responses diverge significant
 :::
 
 ![](images/conversation_tree_dense.png){width="90%"}
+
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+
+## AIDu - System Architecture
+
+be **flexible to implement** different AI behaviors and monitoring approaches
+
+::::{.columns}
+:::{.column width="50%" .text-xs}
+- It fits into a <span class="blue">**classroom setting**</span> with a teacher overseeing multiple students, 1-2 interacting with their own AI tutor, while the teacher can monitor and intervene as needed.
+- The system architecture is designed to allow for <span class="blue">**different teaching behaviors**</span> (assessing, solving, explaining, Socratic, epistemic) to be implemented and switched between.
+- Real-time monitoring of dialogue quality allows for <span class="blue">**detection (and correction) of non-compliances**</span> such as role drift, misinformation, or misalignment with learning goals.
+
+:::
+
+:::{.column width="50%"}
+![](images/AIDu_sys_architecture.png){width="70%"}
+:::
+::::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Scaffolding Requirements
+
+The different teaching behaviors place very different scaffolding requirements on AI.
+<br/>
+
+<div class="compact-table">
+
+|                  |         |                                                  |
+| ---------------- | :-----: | ------------------------------------------------ |
+| **Assessing**    | ![](images/pr%C3%BCfend_icon.png){height="30px"}   | No scaffolding                                 |
+| **Solving**      | ![](images/l%C3%B6send_icon.png){height="30px"}    | No scaffolding                                 |
+| **Explaining**   | ![](images/erkl%C3%A4rend_icon.png){height="30px"} | Scaffolding for understanding                  |
+| **Socratic**     | ![](images/sokratisch_icon.png){height="30px"}     | Scaffolding for problem solving                |
+| **Epistemic**    | ![](images/epistemisch_icon.png){height="30px"}    | Scaffolding for finding one’s way              |
+
+</div>
+
+This is associated with very different requirements for AI in terms of **role definition, monitoring, and quality assurance**.
+
+<br/>
+
+:::{.small}
+Jin Wang & Wenxiang Fan — *The effect of ChatGPT on students’ learning performance, learning perception, and higher-order thinking: insights from a meta-analysis*
+:::
+
+
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## AIDu - EU AI Act
+
+
+
+:::: {.columns}
+::: {.column width="60%" .text-2xs}
+
+### comply to EU AI Act - High-Risk AI
+
+recital (56) -- ***AI systems used in education*** *or vocational training, in particular*
+
+  - *for determining access or admission, *
+  - *for assigning persons to educational and vocational training institutions or programmes at all levels,* 
+  - *for evaluating learning outcomes of persons,* 
+  - *for assessing the appropriate level of education* 
+  - *for an individual and materially influencing the level of education and training that individuals will receive or will be able to access or* 
+  - *for monitoring and detecting prohibited behaviour of students during tests*
+
+*should be classified as* **high-risk AI systems**.
+
+:::
+::: {.column width="40%"}
+![](images/understanding-the-eu-ai-act-6.png){width="100%" }
+:::
+::::
+
+:::{.text-4xs}
+- https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+- https://www.isaca.org/-/media/files/isacadp/project/isaca/resources/white-papers/understanding-the-eu-ai-act_1024.pdf
+:::
+
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## AIDu - Risk Mitigation
+
+
+**Risk Controls**
+
+- Real-time pedagogical role monitoring
+- Detection of epistemic violations and solution leakage
+- Mathematical output validation
+- Contextual grounding via simulation coupling
+- Full interaction logging for auditability
+
+**Human Oversight**
+
+Teachers retain supervisory authority over system deployment, task configuration, and intervention in active sessions.
+
+**Data Governance**
+
+Interaction data are stored within controlled infrastructure.
+
+
 
 
 <!-- --------------------------------------------------- slide ----------------------------------------------------- -->
@@ -485,7 +521,7 @@ Students use the AI tutor in very different ways, including:
 
 ::::{.columns}
 :::{.column width="55%" .text-sm}
-- Epistemic AI-tutoring is a viable design approach  
+- AIDu design allows to implement and monitor different AI tutoring behaviors in real classrooms
 - Embedding AI in authentic contexts is crucial
 - Real-time monitoring is essential for quality control
 - Design matters more than model capability alone
@@ -522,3 +558,11 @@ Students use the AI tutor in very different ways, including:
 [>/](https://www.phbern.ch/ueber-die-phbern/aktuell/news/srf-berichtet-wie-kuenstliche-intelligenz-bildung-foerdern-kann)
 :::
 
+<!-- --------------------------------------------------- slide ----------------------------------------------------- -->
+## Real-World Learning
+
+Only via "authentic" open ended learning situations, can learners develop and practice competencies.
+
+![AFS Flugagentur - Leipzig - Markranstädt - Flugsimulator - Airbus A320 - Professional](images/Flightdeck-1-Flugstunde-Airbus-A320.jpg)
+
+Technology can help here.
